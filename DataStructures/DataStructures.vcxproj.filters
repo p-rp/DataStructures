@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Basics">
+      <UniqueIdentifier>{d860e57e-3da4-42cc-af0d-be5ff7ca1c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Recursion">
+      <UniqueIdentifier>{f3b13d7a-ec51-4f2b-9731-0a27d2cfb607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arrays">
+      <UniqueIdentifier>{2144ee2a-1e30-4a41-8038-06bbee822ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrices">
+      <UniqueIdentifier>{e12158df-f86b-409f-9a1b-540a884afb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Linked List">
+      <UniqueIdentifier>{d65c8bfe-dce7-4436-9666-d4b5bb7932b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stack">
+      <UniqueIdentifier>{6af32902-1eba-48fe-8b56-0188366c0966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Trees">
+      <UniqueIdentifier>{e9c4a529-4fb9-4b43-b41e-f1a111665deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Queues">
+      <UniqueIdentifier>{45e826d8-3ece-4b43-83c0-cb63709f90f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Heap">
+      <UniqueIdentifier>{8f1ce3d9-057b-4157-a042-3e95fc95196a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sorting">
+      <UniqueIdentifier>{cbe5eb96-5b82-4bd6-800b-1c6bc7b00094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hash">
+      <UniqueIdentifier>{ebc313f0-713f-42b3-955f-27138cbf51c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphs">
+      <UniqueIdentifier>{2c5f21b8-752d-4c58-8800-f6c7caafbabd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayADT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateBasics.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionTypes.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionExamples.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="ArraysRepresentations.h">
+      <Filter>Header Files\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayADT.h">
+      <Filter>Header Files\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTypes.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphs.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AsymptoticNotations.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

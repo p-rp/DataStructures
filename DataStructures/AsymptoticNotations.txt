@@ -1,0 +1,5 @@
+﻿Lower Bound: Omega (Ω). Best case running time
+Upper Bound: Big O (O). Worst case running time
+Tight Bound: Theta (θ). Used when running time is same for all cases.
+
+1 < log(n) < n log(n) < n^2 < n^3 < ... < 2^n < 3^n < ... < n^n
